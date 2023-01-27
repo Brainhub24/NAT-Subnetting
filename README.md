@@ -9,3 +9,10 @@ Finally, it retrieves a list of existing NATs.
 This script can be used to set up a NAT for a VM in order to allow communication between VMs on the same network.
 
 I used this for my Hyper-V LAB.
+Thanks to Norbert Hartmann for the main script. :)
+
+
+## NOTE:
+With some test scripts I wrote to test the correct executability of the actual script it can happen under circumstances that your antivirus program is a little bit ticky. Because the test sequence in the script is detected as Heur.BZC.PZQ.Boxter.855.7D9BE6DD maleware.
+BUT IT IS DEFINITELY NOT MALEWARE, IT WILL ONLY CREATE A LOG FILE THAT VERIFIES THAT THE ACTUAL SCRIPT HAS FOUND THE CORRECT ID OF THE NAT.
+NOTHING ELSE HAPPENS IN THE BACKGROUND.
