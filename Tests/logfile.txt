@@ -1,0 +1,2 @@
+Get-NetAdapter - Success
+Get-NetAdapter - Success
