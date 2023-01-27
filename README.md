@@ -9,7 +9,7 @@ Finally, it retrieves a list of existing NATs.
 This script can be used to set up a NAT for a VM in order to allow communication between VMs on the same network.
 
 I used this for my Hyper-V LAB.
-Thanks to Norbert Hartmann for the main script. :)
+### Thanks to Norbert Hartmann for the main script ([NAT in Hyper-V.ps1](https://github.com/Brainhub24/NAT-Subnetting/commits/4bd30c79fe4c9de3cea46928fb8961c6a136fad6/NAT%20in%20Hyper-V.ps1?browsing_rename_history=true&new_path=viper.ps1&original_branch=main)). :)
 
 For an automated procedure, you could use the script 'Viper-automate.ps1'. 
 
@@ -19,7 +19,8 @@ It is useful for automating the configuration of internal network switches in Po
 ![Viper_automate script tested](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/viper-script_testrun.png)
 
 ### To verify this [I wrote a testscript that logs the process to a logfile](https://github.com/Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1).
-It's not perfect, but it works without breaking the lab system. [@Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1](https://github.com/Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1)
+It's not perfect, but it works without breaking the lab system.
+[@Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1](https://github.com/Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1)
 ```
 #Create Log File
 $logFile = "$env:temp\logfile.txt"
