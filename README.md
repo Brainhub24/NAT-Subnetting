@@ -19,6 +19,19 @@ I also created a NAT Subnetting Automation Script v1.0 Release [Pre-release]: [v
 $path = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.ps1"
 $output = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.exe"
 Start-Process powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $path" -NoNewWindow -Wait -RedirectStandardOutput $output
+PS C:\Users\Student\Documents\GitHub\NAT-Subnetting> ls
+
+
+    Verzeichnis: C:\Users\Student\Documents\GitHub\NAT-Subnetting
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        27.01.2023     13:06                Tests
+-a----        27.01.2023     13:06           5207 README.md
+-a----        27.01.2023     13:05          45912 viper.exe         <---
+-a----        27.01.2023     10:20            805 viper.ps1
+-a----        27.01.2023     11:45           1140 viper_automate.ps1
 ```
 
 
