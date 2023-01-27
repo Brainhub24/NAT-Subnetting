@@ -13,7 +13,7 @@ I used this for my Hyper-V LAB.
 
 For an automated procedure, you could use the script 'Viper-automate.ps1'.
 
-Then I converted the NAT Subnetting Automation Script into an executable file [v1.0 Pre-release]: [viper.exe
+I converted the NAT Subnetting Automation Script into an executable file [v1.0 Pre-release]: [viper.exe
 ](https://github.com/Brainhub24/NAT-Subnetting/releases/tag/Viper_NAT)
 ```
 $path = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.ps1"
