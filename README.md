@@ -11,7 +11,16 @@ This script can be used to set up a NAT for a VM in order to allow communication
 I used this for my Hyper-V LAB.
 ### Thanks to Norbert Hartmann for the main script ([NAT in Hyper-V.ps1](https://github.com/Brainhub24/NAT-Subnetting/commits/4bd30c79fe4c9de3cea46928fb8961c6a136fad6/NAT%20in%20Hyper-V.ps1?browsing_rename_history=true&new_path=viper.ps1&original_branch=main)). :)
 
-For an automated procedure, you could use the script 'Viper-automate.ps1'. 
+For an automated procedure, you could use the script 'Viper-automate.ps1'.
+
+I also created a NAT Subnetting Automation Script v1.0 Release [Pre-release]: [viper.exe
+](https://github.com/Brainhub24/NAT-Subnetting/releases/tag/Viper_NAT)
+```
+$path = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.ps1"
+$output = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.exe"
+Start-Process powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $path" -NoNewWindow -Wait -RedirectStandardOutput $output
+```
+
 
 The main script 'viper.ps1' is a script with the powershell snippets or commands which have to be executed individually and verified manually.
 This script retrieves the 'vEthernet (NATSwitch12)' network adapter, assigns its 'InterfaceIndex' property to a variable, and then configures the IP address '192.168.12.1' and the subnet mask '24' on the adapter using the 'New-NetIPAddress' cmdlet.
