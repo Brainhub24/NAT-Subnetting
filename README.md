@@ -12,10 +12,28 @@ I used this for my Hyper-V LAB.
 Thanks to Norbert Hartmann for the main script. :)
 
 For an automated procedure, you could use the script 'Viper-automate.ps1'. 
-![Viper_automate script tested](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/viper-script_testrun.png)
+
 The main script 'viper.ps1' is a script with the powershell snippets or commands which have to be executed individually and verified manually.
 This script retrieves the 'vEthernet (NATSwitch12)' network adapter, assigns its 'InterfaceIndex' property to a variable, and then configures the IP address '192.168.12.1' and the subnet mask '24' on the adapter using the 'New-NetIPAddress' cmdlet.
 It is useful for automating the configuration of internal network switches in PowerShell.
+![Viper_automate script tested](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/viper-script_testrun.png)
+
+### To verify this [I wrote a testscript that logs the process to a logfile](https://github.com/Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1).
+It's not perfect, but it works without breaking the lab system. [@Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1](https://github.com/Brainhub24/NAT-Subnetting/blob/main/Tests/viper_checkup.ps1)
+```
+#Create Log File
+$logFile = "$env:temp\logfile.txt"
+
+# Get the interface index of the vEthernet (NATSwitch12)
+try {
+    $adapter = Get-NetAdapter | Where-Object {$_.Name -eq "vEthernet (NATSwitch12)"}
+    $interfaceIndex = $adapter.InterfaceIndex
+    $interfaceIndex
+    Add-Content -Path $logFile -Value "Get-NetAdapter - Success"
+} catch {
+    Add-Content -Path $logFile -Value "Get-NetAdapter - Error: $_"
+}
+```
 
 ![Viper_automate script tested](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/Viper_Test-Logfile_output.png)
 
