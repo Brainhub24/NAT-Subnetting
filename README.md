@@ -63,6 +63,7 @@ try {
 ## NOTE:
 With some test scripts I wrote to test the correct executability of the actual script it can happen under circumstances that your antivirus program is a little bit ticky. Because the test sequence in the script is detected as Heur.BZC.PZQ.Boxter.855.7D9BE6DD maleware.
 ![Bitdefender Security Center - Info Threat blocked](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/Bitdefender_Security_Center_Info-Threat-blocked.gif)
+
 BUT IT IS DEFINITELY NOT A THREAT, MALEWARE OR SOMETHING, IT WILL ONLY CREATE A LOG FILE THAT VERIFIES THAT THE ACTUAL SCRIPT HAS FOUND THE CORRECT ID OF THE NAT.
 NOTHING ELSE HAPPENS IN THE BACKGROUND.
 
