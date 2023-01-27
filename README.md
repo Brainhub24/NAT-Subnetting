@@ -43,7 +43,8 @@ With some test scripts I wrote to test the correct executability of the actual s
 BUT IT IS DEFINITELY NOT MALEWARE, IT WILL ONLY CREATE A LOG FILE THAT VERIFIES THAT THE ACTUAL SCRIPT HAS FOUND THE CORRECT ID OF THE NAT.
 NOTHING ELSE HAPPENS IN THE BACKGROUND.
 
-### Check Virustotal: https://www.virustotal.com/gui/file/e74f8988b43a819819feaccfc5b73337bd4d6e563590b0a1b8fc735d81589b68/details
+### Check Virustotal:
+https://www.virustotal.com/gui/file/e74f8988b43a819819feaccfc5b73337bd4d6e563590b0a1b8fc735d81589b68/details
 ```
 # Basic properties
 MD5:		3b3d21c3c379bbe847319ee083d01d2f
