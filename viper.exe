@@ -1,0 +1,793 @@
+
+Name        SwitchType NetAdapterInterfaceDescription
+----        ---------- ------------------------------
+NATSwitch12 Internal                                 
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {DC7BDF6C-8B43-4D77-A47B-C47D1981D0B8}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : WLAN
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Up
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {DC7BDF6C-8B43-4D77-A47B-C47D1981D0B8}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : DESKTOP-VPCG4P6
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 866700000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        : 
+FullDuplex                                       : False
+LinkTechnology                                   : 
+NetworkAddresses                                 : {28DFEBB073AE}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : 28DFEBB073AE
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : PCI\VEN_8086&DEV_34F0&SUBSYS_00348086
+ConnectorPresent                                 : True
+DeviceName                                       : \Device\{DC7BDF6C-8B43-4D77-A47B-C47D1981D0B8}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2022-08-14
+DriverDateData                                   : 133049088000000000
+DriverDescription                                : Intel(R) Wireless-AC 9560 160MHz
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 60
+DriverName                                       : \SystemRoot\System32\drivers\Netwtw10.sys
+DriverProvider                                   : Intel
+DriverVersionString                              : 22.160.0.4
+EndPointInterface                                : False
+HardwareInterface                                : True
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {19}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : Intel(R) Wireless-AC 9560 160MHz
+InterfaceGuid                                    : {DC7BDF6C-8B43-4D77-A47B-C47D1981D0B8}
+InterfaceIndex                                   : 23
+InterfaceName                                    : wireless_32768
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 71
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 0
+MediaConnectState                                : 1
+MediaDuplexState                                 : 1
+MinorDriverVersion                               : 4
+MtuSize                                          : 1500
+NdisMedium                                       : 16
+NdisPhysicalMedium                               : 9
+NetLuid                                          : 19985273102270464
+NetLuidIndex                                     : 32768
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : PCI\VEN_8086&DEV_34F0&SUBSYS_00348086&REV_30\3&11583659&3&A3
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 866700000
+State                                            : 2
+TransmitLinkSpeed                                : 866700000
+Virtual                                          : False
+VlanID                                           : 
+WdmInterface                                     : False
+PSComputerName                                   : 
+MacAddress                                       : 28-DF-EB-B0-73-AE
+LinkSpeed                                        : 866.7 Mbps
+MediaType                                        : Native 802.11
+PhysicalMediaType                                : Native 802.11
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date 2022-08-14 Version 22.160.0.4 NDIS 6.60
+DriverFileName                                   : Netwtw10.sys
+NdisVersion                                      : 6.60
+ifOperStatus                                     : Up
+ifAlias                                          : WLAN
+InterfaceAlias                                   : WLAN
+ifIndex                                          : 23
+ifDesc                                           : Intel(R) Wireless-AC 9560 160MHz
+ifName                                           : wireless_32768
+DriverVersion                                    : 22.160.0.4
+LinkLayerAddress                                 : 28-DF-EB-B0-73-AE
+
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {D5D339B1-221F-4E97-BB7A-2985907CC574}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : vEthernet (NATSwitch12)
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Up
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {D5D339B1-221F-4E97-BB7A-2985907CC574}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : DESKTOP-VPCG4P6
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 10000000000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        : 
+FullDuplex                                       : 
+LinkTechnology                                   : 
+NetworkAddresses                                 : {00155DB22300}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : 00155DB22300
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : vms_mp
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{D5D339B1-221F-4E97-BB7A-2985907CC574}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2006-06-21
+DriverDateData                                   : 127953216000000000
+DriverDescription                                : Hyper-V Virtual Ethernet Adapter
+DriverMajorNdisVersion                           : 
+DriverMinorNdisVersion                           : 
+DriverName                                       : \SystemRoot\System32\drivers\VmsProxyHNic.sys
+DriverProvider                                   : Microsoft
+DriverVersionString                              : 10.0.22621.1
+EndPointInterface                                : False
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {61}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : Hyper-V Virtual Ethernet Adapter #2
+InterfaceGuid                                    : {D5D339B1-221F-4E97-BB7A-2985907CC574}
+InterfaceIndex                                   : 60
+InterfaceName                                    : ethernet_32777
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 6
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : {59}
+MajorDriverVersion                               : 
+MediaConnectState                                : 1
+MediaDuplexState                                 : 0
+MinorDriverVersion                               : 
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 0
+NetLuid                                          : 1689399767072768
+NetLuidIndex                                     : 32777
+NotUserRemovable                                 : True
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : ROOT\VMS_MP\0000
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 10000000000
+State                                            : 2
+TransmitLinkSpeed                                : 10000000000
+Virtual                                          : True
+VlanID                                           : 
+WdmInterface                                     : False
+PSComputerName                                   : 
+MacAddress                                       : 00-15-5D-B2-23-00
+LinkSpeed                                        : 10 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : Unspecified
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date 2006-06-21 Version 10.0.22621.1
+DriverFileName                                   : VmsProxyHNic.sys
+NdisVersion                                      : 
+ifOperStatus                                     : Up
+ifAlias                                          : vEthernet (NATSwitch12)
+InterfaceAlias                                   : vEthernet (NATSwitch12)
+ifIndex                                          : 60
+ifDesc                                           : Hyper-V Virtual Ethernet Adapter #2
+ifName                                           : ethernet_32777
+DriverVersion                                    : 10.0.22621.1
+LinkLayerAddress                                 : 00-15-5D-B2-23-00
+
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {99925357-D93A-4D3D-A16A-81D2B4D011B9}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : LAN-Verbindung 2
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Up
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {99925357-D93A-4D3D-A16A-81D2B4D011B9}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : DESKTOP-VPCG4P6
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 1000000000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        : 
+FullDuplex                                       : True
+LinkTechnology                                   : 
+NetworkAddresses                                 : {00FF99925357}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : 00FF99925357
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : root\tap0901
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{99925357-D93A-4D3D-A16A-81D2B4D011B9}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2020-10-08
+DriverDateData                                   : 132465888000000000
+DriverDescription                                : TAP-Windows Adapter V9
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 30
+DriverName                                       : \SystemRoot\System32\drivers\tap0901.sys
+DriverProvider                                   : TAP-Windows Provider V9
+DriverVersionString                              : 9.24.6.601
+EndPointInterface                                : False
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {30}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : TAP-Windows Adapter V9
+InterfaceGuid                                    : {99925357-D93A-4D3D-A16A-81D2B4D011B9}
+InterfaceIndex                                   : 18
+InterfaceName                                    : iftype53_32769
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 53
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 9
+MediaConnectState                                : 1
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 24
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 0
+NetLuid                                          : 14918723538255872
+NetLuidIndex                                     : 32769
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : ROOT\NET\0001
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 1000000000
+State                                            : 2
+TransmitLinkSpeed                                : 1000000000
+Virtual                                          : True
+VlanID                                           : 
+WdmInterface                                     : True
+PSComputerName                                   : 
+MacAddress                                       : 00-FF-99-92-53-57
+LinkSpeed                                        : 1 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : Unspecified
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date 2020-10-08 Version 9.24.6.601 NDIS 6.30
+DriverFileName                                   : tap0901.sys
+NdisVersion                                      : 6.30
+ifOperStatus                                     : Up
+ifAlias                                          : LAN-Verbindung 2
+InterfaceAlias                                   : LAN-Verbindung 2
+ifIndex                                          : 18
+ifDesc                                           : TAP-Windows Adapter V9
+ifName                                           : iftype53_32769
+DriverVersion                                    : 9.24.6.601
+LinkLayerAddress                                 : 00-FF-99-92-53-57
+
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {76255A2A-2FF3-4F34-964A-B230C9966A45}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : Ethernet
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Disconnected
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {76255A2A-2FF3-4F34-964A-B230C9966A45}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : DESKTOP-VPCG4P6
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        : 
+FullDuplex                                       : 
+LinkTechnology                                   : 
+NetworkAddresses                                 : {EC7949EFB6BE}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : EC7949EFB6BE
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : PCI\VEN_10EC&DEV_8168&SUBSYS_00171E26&REV_15
+ConnectorPresent                                 : True
+DeviceName                                       : \Device\{76255A2A-2FF3-4F34-964A-B230C9966A45}
+DeviceWakeUpEnable                               : True
+DriverDate                                       : 2021-09-09
+DriverDateData                                   : 132756192000000000
+DriverDescription                                : Realtek PCIe GbE Family Controller
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 85
+DriverName                                       : \SystemRoot\System32\DriverStore\FileRepository\rt68cx21x64.inf_amd6
+                                                   4_bf9533a75d289cdf\rt68cx21x64.sys
+DriverProvider                                   : Realtek
+DriverVersionString                              : 1168.2.909.2021
+EndPointInterface                                : False
+HardwareInterface                                : True
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {36}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : Realtek PCIe GbE Family Controller
+InterfaceGuid                                    : {76255A2A-2FF3-4F34-964A-B230C9966A45}
+InterfaceIndex                                   : 16
+InterfaceName                                    : ethernet_32769
+InterfaceOperationalStatus                       : 2
+InterfaceType                                    : 6
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 0
+MediaConnectState                                : 0
+MediaDuplexState                                 : 0
+MinorDriverVersion                               : 0
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 14
+NetLuid                                          : 1689399632855040
+NetLuidIndex                                     : 32769
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : True
+PnPDeviceID                                      : PCI\VEN_10EC&DEV_8168&SUBSYS_00171E26&REV_15\01000000684CE00000
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 
+State                                            : 2
+TransmitLinkSpeed                                : 
+Virtual                                          : False
+VlanID                                           : 
+WdmInterface                                     : True
+PSComputerName                                   : 
+MacAddress                                       : EC-79-49-EF-B6-BE
+LinkSpeed                                        : 0 bps
+MediaType                                        : 802.3
+PhysicalMediaType                                : 802.3
+AdminStatus                                      : Up
+MediaConnectionState                             : Unknown
+DriverInformation                                : Driver Date 2021-09-09 Version 1168.2.909.2021 NDIS 6.85
+DriverFileName                                   : rt68cx21x64.sys
+NdisVersion                                      : 6.85
+ifOperStatus                                     : Down
+ifAlias                                          : Ethernet
+InterfaceAlias                                   : Ethernet
+ifIndex                                          : 16
+ifDesc                                           : Realtek PCIe GbE Family Controller
+ifName                                           : ethernet_32769
+DriverVersion                                    : 1168.2.909.2021
+LinkLayerAddress                                 : EC-79-49-EF-B6-BE
+
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {1192B8DF-10C5-4A39-8CB7-AD056A25F291}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : LAN-Verbindung 3
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Disconnected
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {1192B8DF-10C5-4A39-8CB7-AD056A25F291}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : DESKTOP-VPCG4P6
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 1000000000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        : 
+FullDuplex                                       : True
+LinkTechnology                                   : 
+NetworkAddresses                                 : {00FF1192B8DF}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : 00FF1192B8DF
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : tap0901
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{1192B8DF-10C5-4A39-8CB7-AD056A25F291}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2020-10-08
+DriverDateData                                   : 132465888000000000
+DriverDescription                                : TAP-Windows Adapter V9
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 30
+DriverName                                       : \SystemRoot\System32\drivers\tap0901.sys
+DriverProvider                                   : TAP-Windows Provider V9
+DriverVersionString                              : 9.24.6.601
+EndPointInterface                                : False
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {32}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : TAP-Windows Adapter V9 #2
+InterfaceGuid                                    : {1192B8DF-10C5-4A39-8CB7-AD056A25F291}
+InterfaceIndex                                   : 5
+InterfaceName                                    : iftype53_32770
+InterfaceOperationalStatus                       : 2
+InterfaceType                                    : 53
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 9
+MediaConnectState                                : 2
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 24
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 0
+NetLuid                                          : 14918723555033088
+NetLuidIndex                                     : 32770
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : True
+PnPDeviceID                                      : ROOT\NET\0002
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 1000000000
+State                                            : 2
+TransmitLinkSpeed                                : 1000000000
+Virtual                                          : True
+VlanID                                           : 
+WdmInterface                                     : True
+PSComputerName                                   : 
+MacAddress                                       : 00-FF-11-92-B8-DF
+LinkSpeed                                        : 1 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : Unspecified
+AdminStatus                                      : Up
+MediaConnectionState                             : Disconnected
+DriverInformation                                : Driver Date 2020-10-08 Version 9.24.6.601 NDIS 6.30
+DriverFileName                                   : tap0901.sys
+NdisVersion                                      : 6.30
+ifOperStatus                                     : Down
+ifAlias                                          : LAN-Verbindung 3
+InterfaceAlias                                   : LAN-Verbindung 3
+ifIndex                                          : 5
+ifDesc                                           : TAP-Windows Adapter V9 #2
+ifName                                           : iftype53_32770
+DriverVersion                                    : 9.24.6.601
+LinkLayerAddress                                 : 00-FF-11-92-B8-DF
+
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {08F90E97-68BC-4EF9-AEFD-D835E6B9955F}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : LAN-Verbindung
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Disconnected
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {08F90E97-68BC-4EF9-AEFD-D835E6B9955F}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : DESKTOP-VPCG4P6
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 100000000000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 65535
+AutoSense                                        : 
+FullDuplex                                       : True
+LinkTechnology                                   : 
+NetworkAddresses                                 : 
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : 
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : Wintun
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{08F90E97-68BC-4EF9-AEFD-D835E6B9955F}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2019-12-10
+DriverDateData                                   : 132204096000000000
+DriverDescription                                : Wintun Userspace Tunnel
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 83
+DriverName                                       : \SystemRoot\System32\drivers\wintun.sys
+DriverProvider                                   : WireGuard LLC
+DriverVersionString                              : 0.8.0.0
+EndPointInterface                                : False
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : 
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : Wintun Userspace Tunnel
+InterfaceGuid                                    : {08F90E97-68BC-4EF9-AEFD-D835E6B9955F}
+InterfaceIndex                                   : 4
+InterfaceName                                    : iftype53_32768
+InterfaceOperationalStatus                       : 2
+InterfaceType                                    : 53
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 0
+MediaConnectState                                : 2
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 8
+MtuSize                                          : 65535
+NdisMedium                                       : 19
+NdisPhysicalMedium                               : 0
+NetLuid                                          : 14918723521478656
+NetLuidIndex                                     : 32768
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : True
+PnPDeviceID                                      : ROOT\NET\0000
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 100000000000
+State                                            : 2
+TransmitLinkSpeed                                : 100000000000
+Virtual                                          : True
+VlanID                                           : 
+WdmInterface                                     : False
+PSComputerName                                   : 
+MacAddress                                       : 
+LinkSpeed                                        : 100 Gbps
+MediaType                                        : IP
+PhysicalMediaType                                : Unspecified
+AdminStatus                                      : Up
+MediaConnectionState                             : Disconnected
+DriverInformation                                : Driver Date 2019-12-10 Version 0.8.0.0 NDIS 6.83
+DriverFileName                                   : wintun.sys
+NdisVersion                                      : 6.83
+ifOperStatus                                     : Down
+ifAlias                                          : LAN-Verbindung
+InterfaceAlias                                   : LAN-Verbindung
+ifIndex                                          : 4
+ifDesc                                           : Wintun Userspace Tunnel
+ifName                                           : iftype53_32768
+DriverVersion                                    : 0.8.0.0
+LinkLayerAddress                                 : 
+
+New-NetIPAddress : Element nicht gefunden.
+In C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.ps1:23 Zeichen:1
++ New-NetIPAddress 192.168.12.1 -PrefixLength 24 -InterfaceIndex 12
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MSFT_NetIPAddress:ROOT/StandardCimv2/MSFT_NetIPAddress) [New-NetIPAddre 
+   ss], CimException
+    + FullyQualifiedErrorId : Windows System Error 1168,New-NetIPAddress
+ 
+
+Caption                          : 
+Description                      : 
+ElementName                      : 
+InstanceID                       : NatSwitch12;0
+Active                           : True
+ExternalIPInterfaceAddressPrefix : 
+IcmpQueryTimeout                 : 30
+InternalIPInterfaceAddressPrefix : 192.168.12.0/24
+InternalRoutingDomainId          : {00000000-0000-0000-0000-000000000000}
+Name                             : NatSwitch12
+Store                            : Local
+TcpEstablishedConnectionTimeout  : 1800
+TcpFilteringBehavior             : AddressDependentFiltering
+TcpTransientConnectionTimeout    : 120
+UdpFilteringBehavior             : AddressDependentFiltering
+UdpIdleSessionTimeout            : 120
+UdpInboundRefresh                : False
+PSComputerName                   : 
+
+
+Caption                          : 
+Description                      : 
+ElementName                      : 
+InstanceID                       : NatSwitch12;0
+Active                           : True
+ExternalIPInterfaceAddressPrefix : 
+IcmpQueryTimeout                 : 30
+InternalIPInterfaceAddressPrefix : 192.168.12.0/24
+InternalRoutingDomainId          : {00000000-0000-0000-0000-000000000000}
+Name                             : NatSwitch12
+Store                            : Local
+TcpEstablishedConnectionTimeout  : 1800
+TcpFilteringBehavior             : AddressDependentFiltering
+TcpTransientConnectionTimeout    : 120
+UdpFilteringBehavior             : AddressDependentFiltering
+UdpIdleSessionTimeout            : 120
+UdpInboundRefresh                : False
+PSComputerName                   : 
+
+
+
