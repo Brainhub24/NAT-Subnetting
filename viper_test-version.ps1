@@ -1,9 +1,7 @@
-# Three steps are necessary for a NAT subnet:
-#
-# 1. Create an internal switch in Hyper-V.
-# 2. Set an IP address for the internal switch. This IP address then represents the default gateway for the NAT subnet.
-# 3. Create a NetNat object that will be used to define the NAT subnet and that will later perform the network address translation.
-
+# The main script 'viper.ps1' is a script with the powershell snippets or commands which have to be executed individually and verified manually.
+# If you want to automate the whole process of the main script, you can test and use this script.
+# This script retrieves the 'vEthernet (NATSwitch12)' network adapter, assigns its 'InterfaceIndex' property to a variable, and then configures the IP address '192.168.12.1' and the subnet mask '24' on the adapter using the 'New-NetIPAddress' cmdlet.
+# It is useful for automating the configuration of internal network switches in PowerShell.
 
 
 
