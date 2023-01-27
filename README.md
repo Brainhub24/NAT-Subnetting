@@ -69,11 +69,14 @@ $adapter = Get-NetAdapter | Where-Object {$_.Name -eq "vEthernet (NATSwitch12)"}
 $interfaceIndex = $adapter.InterfaceIndex
 New-NetIPAddress 192.168.12.1 -PrefixLength 24 -InterfaceIndex $interfaceIndex
 
-The first line of code retrieves all network adapters using the Get-NetAdapter cmdlet, and then filters the results using the Where-Object cmdlet. The filter being used is looking for an adapter whose Name property equals "vEthernet (NATSwitch12)". The filtered result is then assigned to the variable $adapter.
+The first line of code retrieves all network adapters using the Get-NetAdapter cmdlet, and then filters the results using the Where-Object cmdlet.
+The filter being used is looking for an adapter whose Name property equals "vEthernet (NATSwitch12)". The filtered result is then assigned to the variable $adapter.
 
 The second line of code retrieves the InterfaceIndex property of the $adapter variable and assigns it to the variable $interfaceIndex.
 
-The last line of code creates a new IP address with the New-NetIPAddress cmdlet. The IP address being created is 192.168.12.1 and the subnet mask is 24. The -InterfaceIndex parameter is passed the value stored in the $interfaceIndex variable. This command will configure the IP address and subnet mask on the network adapter specified by the $interfaceIndex variable, which is the 'vEthernet (NATSwitch12)', this command is using the id that was found previously.
+The last line of code creates a new IP address with the New-NetIPAddress cmdlet.
+The IP address being created is 192.168.12.1 and the subnet mask is 24. The -InterfaceIndex parameter is passed the value stored in the $interfaceIndex variable.
+This command will configure the IP address and subnet mask on the network adapter specified by the $interfaceIndex variable, which is the 'vEthernet (NATSwitch12)', this command is using the id that was found previously.
 
 # Cmdlets
 add-content
