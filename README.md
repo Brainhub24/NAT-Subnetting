@@ -11,7 +11,29 @@ This script can be used to set up a NAT for a VM in order to allow communication
 I used this for my Hyper-V LAB.
 ### Thanks to Norbert Hartmann for the main script ([NAT in Hyper-V.ps1](https://github.com/Brainhub24/NAT-Subnetting/commits/4bd30c79fe4c9de3cea46928fb8961c6a136fad6/NAT%20in%20Hyper-V.ps1?browsing_rename_history=true&new_path=viper.ps1&original_branch=main)). :)
 
-For an automated procedure, you could use the script 'Viper-automate.ps1'. 
+For an automated procedure, you could use the script 'Viper-automate.ps1'.
+
+I converted the NAT Subnetting Automation Script into an executable file [v1.0 Pre-release]: [viper.exe
+](https://github.com/Brainhub24/NAT-Subnetting/releases/tag/Viper_NAT)
+```
+$path = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.ps1"
+$output = "C:\Users\Student\Documents\GitHub\NAT-Subnetting\viper.exe"
+Start-Process powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $path" -NoNewWindow -Wait -RedirectStandardOutput $output
+PS C:\Users\Student\Documents\GitHub\NAT-Subnetting> ls
+
+
+    Verzeichnis: C:\Users\Student\Documents\GitHub\NAT-Subnetting
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        27.01.2023     13:06                Tests
+-a----        27.01.2023     13:06           5207 README.md
+-a----        27.01.2023     13:05          45912 viper.exe         <---
+-a----        27.01.2023     10:20            805 viper.ps1
+-a----        27.01.2023     11:45           1140 viper_automate.ps1
+```
+
 
 The main script 'viper.ps1' is a script with the powershell snippets or commands which have to be executed individually and verified manually.
 This script retrieves the 'vEthernet (NATSwitch12)' network adapter, assigns its 'InterfaceIndex' property to a variable, and then configures the IP address '192.168.12.1' and the subnet mask '24' on the adapter using the 'New-NetIPAddress' cmdlet.
@@ -40,7 +62,8 @@ try {
 
 ## NOTE:
 With some test scripts I wrote to test the correct executability of the actual script it can happen under circumstances that your antivirus program is a little bit ticky. Because the test sequence in the script is detected as Heur.BZC.PZQ.Boxter.855.7D9BE6DD maleware.
-![Bitdefender Security Center - Info Threat blocked](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/Bitdefender_Security_Center_Info-Threat-blocked.png)
+![Bitdefender Security Center - Info Threat blocked](https://raw.githubusercontent.com/Brainhub24/NAT-Subnetting/main/Tests/Bitdefender_Security_Center_Info-Threat-blocked.gif)
+
 BUT IT IS DEFINITELY NOT A THREAT, MALEWARE OR SOMETHING, IT WILL ONLY CREATE A LOG FILE THAT VERIFIES THAT THE ACTUAL SCRIPT HAS FOUND THE CORRECT ID OF THE NAT.
 NOTHING ELSE HAPPENS IN THE BACKGROUND.
 
